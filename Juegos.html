@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos los juegos - Rockstar Games</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="icon" href="Resources/Icons/Rockstar_logo.png" type="image/x-icoN">
+    <link rel="apple-touch-icon" sizes="180x180" href="Resources/Icons/Rockstar_logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="Images/ImagenFondo.png" width="175" alt="Rockstar Games">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Juegos.html">Juegos de Rockstar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Canal de Noticias.html">Canal de Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Soporte.html">Soporte</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="userAccount"><i class="fas fa-user"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="language"><i class="fas fa-globe"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="searchToggle"><i class="fas fa-search"></i></a>
+                        <div id="search-form">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit">Buscar </button>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Productos.html" id="cartToggle"><i class=""></i></a>
+                        <div id="cart">
+                            <p>|</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-3">
+        <h1>El sello Rockstar Games fue fundado en 1998 con el fin de crear el ocio interactivo más innovador y
+            vanguardista.</h1>
+        <p class="lead">Rockstar Games acepta de buen grado las aportaciones de la comunidad de jugadores.</p>
+    </div>
+
+    <!-- Sección de Todos los juegos de Rockstar Games -->
+
+    <section id="productos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Todos nuestros lanzamientos de Videojuegos</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Products/GTA VI.png" class="card-img-top" alt="Juego 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Grand Theft Auto VI</h5>
+                            <p class="card-text">Año de lanzamiento: Otoño de 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Products/GTA V.PNG" class="card-img-top" alt="Juego 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Grand Theft Auto V</h5>
+                            <p class="card-text">Año de lanzamiento: 2013</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Products/GTA Online.PNG" class="card-img-top" alt="Juego 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Grand Theft Auto Online</h5>
+                            <p class="card-text">Año de lanzamiento: 2013</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Products/RDR2.PNG" class="card-img-top" alt="Juego 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Dead Redemption II</h5>
+                            <p class="card-text">Año de lanzamiento: 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Products/RDR Online.PNG" class="card-img-top" alt="Juego 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Dead Online</h5>
+                            <p class="card-text">Año de lanzamiento: 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/RDR1.PNG" class="card-img-top" alt="Juego 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Dead Redemption</h5>
+                        <p class="card-text">Año de lanzamiento: 2010</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/RDR Undead.PNG" class="card-img-top" alt="Juego 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Red dead Redemption Undead Nightmare</h5>
+                        <p class="card-text">Año de lanzamiento: 2010</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA Trilogy.PNG" class="card-img-top" alt="Juego 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: The Trilogy - The Definitive Edition</h5>
+                        <p class="card-text">Año de lanzamiento: 2021</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/L.A Noire.PNG" class="card-img-top" alt="Juego 9">
+                    <div class="card-body">
+                        <h5 class="card-title">L.A Noire</h5>
+                        <p class="card-text">Año de lanzamiento: 2011</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Bully portada.PNG" class="card-img-top" alt="Juego 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Bully</h5>
+                        <p class="card-text">Año de lanzamiento: 2006</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Max Payne 3.PNG" class="card-img-top" alt="Juego 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Max Payne 3</h5>
+                        <p class="card-text">Año de lanzamiento: 2012</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA EF Liberty City.PNG" class="card-img-top" alt="Juego 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: Episodes From Liberty City</h5>
+                        <p class="card-text">Año de lanzamiento: 2009</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Midnight Club.PNG" class="card-img-top" alt="Juego 13">
+                    <div class="card-body">
+                        <h5 class="card-title">Midnight Club: Los Angeles</h5>
+                        <p class="card-text">Año de lanzamiento: 2008</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA 4.PNG" class="card-img-top" alt="Juego 14">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto IV</h5>
+                        <p class="card-text">Año de lanzamiento: 2008</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA Chinatown.PNG" class="card-img-top" alt="Juego 15">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: Chinatown Wars</h5>
+                        <p class="card-text">Año de lanzamiento: 2009</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Beaterator.PNG" class="card-img-top" alt="Juego 16">
+                    <div class="card-body">
+                        <h5 class="card-title">Beaterator</h5>
+                        <p class="card-text">Año de lanzamiento: 2009</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Manhunt 2.PNG" class="card-img-top" alt="Juego 17">
+                    <div class="card-body">
+                        <h5 class="card-title">Manhunt 2</h5>
+                        <p class="card-text">Año de lanzamiento: 2007</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Table Tennis.PNG" class="card-img-top" alt="Juego 18">
+                    <div class="card-body">
+                        <h5 class="card-title">Table Tennis</h5>
+                        <p class="card-text">Año de lanzamiento: 2006</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA Vice city stories.PNG" class="card-img-top" alt="Juego 19">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: Vice City Stories</h5>
+                        <p class="card-text">Año de lanzamiento: 2006</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/The Warriors.PNG" class="card-img-top" alt="Juego 20">
+                    <div class="card-body">
+                        <h5 class="card-title">The Warriors</h5>
+                        <p class="card-text">Año de lanzamiento: 2005</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA Liberty City Stories.PNG" class="card-img-top" alt="Juego 21">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: Liberty City Stories</h5>
+                        <p class="card-text">Año de lanzamiento: 2005</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Midnight Club DUB.PNG" class="card-img-top" alt="Juego 22">
+                    <div class="card-body">
+                        <h5 class="card-title">Midnight Club 3: DUB Editio</h5>
+                        <p class="card-text">Año de lanzamiento: 2005</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA San Andreas.PNG" class="card-img-top" alt="Juego 23">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: San Andreas</h5>
+                        <p class="card-text">Año de lanzamiento: 2004</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA Advance.PNG" class="card-img-top" alt="Juego 24">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: Advance</h5>
+                        <p class="card-text">Año de lanzamiento: 2004</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Red dead Revolver.PNG" class="card-img-top" alt="Juego 25">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Dead Revolver</h5>
+                        <p class="card-text">Año de lanzamiento: 2004</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Manhunt.PNG" class="card-img-top" alt="Juego 26">
+                    <div class="card-body">
+                        <h5 class="card-title">Manhunt</h5>
+                        <p class="card-text">Año de lanzamiento: 2003</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Max Payne 2 The Fall.PNG" class="card-img-top" alt="Juego 27">
+                    <div class="card-body">
+                        <h5 class="card-title">Max Payne 2: The Fall of Max Payne</h5>
+                        <p class="card-text">Año de lanzamiento: 2003</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA Vice city.PNG" class="card-img-top" alt="Juego 28">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: Vice City</h5>
+                        <p class="card-text">Año de lanzamiento: 2002</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA III.PNG" class="card-img-top" alt="Juego 29">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto III</h5>
+                        <p class="card-text">Año de lanzamiento: 2001</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Smugglers run.PNG" class="card-img-top" alt="Juego 30">
+                    <div class="card-body">
+                        <h5 class="card-title">Smuggler's Run Warzones</h5>
+                        <p class="card-text">Año de lanzamiento: 2002</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Max Payne.PNG" class="card-img-top" alt="Juego 31">
+                    <div class="card-body">
+                        <h5 class="card-title">Max Payne</h5>
+                        <p class="card-text">Año de lanzamiento: 2001</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/State of Emergency.PNG" class="card-img-top" alt="Juego 32">
+                    <div class="card-body">
+                        <h5 class="card-title">State of Emergency</h5>
+                        <p class="card-text">Año de lanzamiento: 2002</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/The Italian Job.PNG" class="card-img-top" alt="Juego 33">
+                    <div class="card-body">
+                        <h5 class="card-title">The Italian Job</h5>
+                        <p class="card-text">Año de lanzamiento: 2001</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Smugglers run 2.PNG" class="card-img-top" alt="Juego 34">
+                    <div class="card-body">
+                        <h5 class="card-title">Smuggler's Run 2: Hostile Territory</h5>
+                        <p class="card-text">Año de lanzamiento: 2001</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Midnight Club Street Racing.PNG" class="card-img-top" alt="Juego 35">
+                    <div class="card-body">
+                        <h5 class="card-title">Midnight Club Street Racing</h5>
+                        <p class="card-text">Año de lanzamiento: 2000</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Smugglers run 1.PNG" class="card-img-top" alt="Juego 36">
+                    <div class="card-body">
+                        <h5 class="card-title">Smuggler's Run</h5>
+                        <p class="card-text">Año de lanzamiento: 2000</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/ONI.PNG" class="card-img-top" alt="Juego 37">
+                    <div class="card-body">
+                        <h5 class="card-title">ONI</h5>
+                        <p class="card-text">Año de lanzamiento: 2001 </p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA 2.PNG" class="card-img-top" alt="Juego 38">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto 2</h5>
+                        <p class="card-text">Año de lanzamiento: 1999</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA Mission pack.PNG" class="card-img-top" alt="Juego 39">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto: London 1969</h5>
+                        <p class="card-text">Año de lanzamiento: 1999</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/GTA.PNG" class="card-img-top" alt="Juego 40">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto</h5>
+                        <p class="card-text">Año de lanzamiento: 1997</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Thrasher.PNG" class="card-img-top" alt="Juego 41">
+                    <div class="card-body">
+                        <h5 class="card-title">Thrasher: Skate and Destroy</h5>
+                        <p class="card-text">Año de lanzamiento: 1999</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Wild Metal.PNG" class="card-img-top" alt="Juego 42">
+                    <div class="card-body">
+                        <h5 class="card-title">Wild Metal Country</h5>
+                        <p class="card-text">Año de lanzamiento: 1999</p>
+                    </div>
+                </div>
+                <div class="card h-100">
+                    <img src="Products/Surfing H3O.png" class="card-img-top" alt="Juego 43">
+                    <div class="card-body">
+                        <h5 class="card-title">Surfing H3O</h5>
+                        <p class="card-text">Año de lanzamiento: 2000</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-center text-white mt-5">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" target="_blank"
+                    role="button"><i class="fab fa-facebook-f">
+                        <img src="Resources/Icons/FacebookIcon.png" alt="Facebook"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/?lang=es" target="_blank"
+                    role="button"><i class="fab fa-twitter">
+                        <img src="Resources/Icons/Xicon.png" alt="Twitter"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="_blank"
+                    role="button"><i class="fab fa-instagram">
+                        <img src="Resources/Icons/InstagramIcon.png" alt="Instagram"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.tiktok.com/es/" target="_blank"
+                    role="button"><i class="fab fa-tiktok">
+                        <img src="Resources/Icons/TiktokIcon.png" alt="Tiktok"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://discord.com/" target="_blank"
+                    role="button"><i class="fab fa-github">
+                        <img src="Resources/Icons/discord.png" alt="Discord"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://youtube.com/" target="_blank"
+                    role="button"><i class="fab fa-github">
+                        <img src="Resources/Icons/youtube.png" alt="Youtube"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://mx.linkedin.com/" target="_blank"
+                    role="button"><i class="fab fa-github">
+                        <img src="Resources/Icons/linkedin.png" alt="Youtube"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.whatsapp.com/" target="_blank"
+                    role="button"><i class="fab fa-github">
+                        <img src="Resources/Icons/whatsapp.png" alt="Whatsapp"></i></a>
+            </section>
+        </div>
+        <!-- Grid container -->
+
+        <!-- Section: Links -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold">Rockstar Games</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px">
+                        <p>El sello Rockstar Games fue fundado en 1998 con el fin de crear el ocio interactivo más
+                            innovador y vanguardista. Es una filial propiedad de Take-Two Interactive Software, Inc.
+                            MCMXCVIII</p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Comunidad</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px">
+                        <p><a href="Canal de Noticias.html" class="text-white">Noticias</a></p>
+                        <p><a href="Juegos.html" class="text-white">Videojuegos</a></p>
+                        <p><a href="index.html" class="text-white">Suscribirse a GTA+</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Enlaces Directos</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px">
+                        <p><a href="index.html" class="text-white">Inicio</a></p>
+                        <p><a href="Juegos.html" class="text-white">Todos los juegos</a></p>
+                        <p><a href="Canal de Noticias.html" class="text-white">Canal de Noticias</a></p>
+                        <p><a href="Soporte.html" class="text-white">Sugerencias y Soporte</a></p>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Contacto</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px">
+                        <p><i class="fas fa-home me-3"></i> 622 Broadway, Nueva York, EE. UU.</p>
+                        <p><i class="fas fa-envelope me-3"></i>Soporte.rockstargames.com</p>
+                        <p><i class="fas fa-home me-3"></i> ©Rockstar Games</p>
+                        <p><i class="fas fa-home me-3"></i> New York London París Bogotá </p>
+                        <p><i class="fas fa-home me-3"></i> Creador: Martin Castro</p>
+                        <p><i class="fas fa-phone me-3"></i> +52 1 662 394 6757</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="JavaScript/Script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
